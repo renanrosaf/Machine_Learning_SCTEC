@@ -39,7 +39,7 @@ Estruturas de decisão
 Uso de listas e loops
 Manipulação de strings
 
-3. Simulação de Treinamento de Modelo
+3. Simulação de Treinamento de Modelo:
 
 Neste exercício, foi implementada uma simulação simplificada do processo de treinamento de um modelo, baseada na redução progressiva do erro ao longo das épocas.
 
