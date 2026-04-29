@@ -10,26 +10,25 @@ dados textuais no lugar de números
 
 O objetivo foi aplicar regras de tratamento para gerar uma nova lista contendo apenas dados válidos ou corrigidos.
 
-🔧 Regras aplicadas:
+Regras aplicadas:
 Idades entre 18 e 100 → mantidas
 Idades menores que 18 → rejeitadas com aviso
 Idades negativas ou maiores que 100 → substituídas por um valor padrão (35)
 Dados textuais → ignorados
 
-📍 Conceitos aplicados:
-
+Conceitos aplicados:
 Estruturas condicionais (if/elif/else)
 Laços de repetição (for)
 Validação de tipos (isinstance)
 Boas práticas em limpeza de dados
 
  2. Codificação de Variáveis Categóricas
-
+ 3. 
 Este exercício simula um cenário comum em Machine Learning, onde dados categóricos precisam ser convertidos para valores numéricos.
 
 A lista de imóveis (ex: "Casa", "Apartamento") foi transformada em uma representação numérica.
 
-🔧 Mapeamento realizado:
+Mapeamento realizado:
 "Casa" → 0
 "Apartamento" → 1
 "Sítio" → 2
@@ -37,7 +36,7 @@ Outros valores → -1 (outliers)
 
 Também foi realizada a contagem de ocorrências da categoria "Casa".
 
-📍 Conceitos aplicados:
+Conceitos aplicados:
 
 Label Encoding
 Estruturas de decisão
@@ -48,7 +47,7 @@ Manipulação de strings
 
 Neste exercício, foi implementada uma simulação simplificada do processo de treinamento de um modelo, baseada na redução progressiva do erro ao longo das épocas.
 
- Funcionamento:
+Funcionamento:
 O erro inicial começa em 100.0
 A cada época, o erro é reduzido com base em uma taxa de aprendizado
 O treinamento continua até que o erro seja menor ou igual a 10.0
