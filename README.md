@@ -1,9 +1,8 @@
-##Exercícios referentes a aula do curso profissionalizante de machine learning - SCTEC. 
+Exercícios referentes a aula do curso profissionalizante de machine learning - SCTEC. 
 
-1. Limpeza de Dados (Data Cleaning)
+1. Limpeza de Dados (Data Cleaning):
 
 Neste exercício, foi trabalhado um conjunto de dados contendo idades com inconsistências, como:
-
 valores negativos
 valores fora do intervalo esperado
 dados textuais no lugar de números
@@ -22,10 +21,9 @@ Laços de repetição (for)
 Validação de tipos (isinstance)
 Boas práticas em limpeza de dados
 
- 2. Codificação de Variáveis Categóricas
- 3. 
-Este exercício simula um cenário comum em Machine Learning, onde dados categóricos precisam ser convertidos para valores numéricos.
+2. Codificação de Variáveis Categóricas:
 
+Este exercício simula um cenário comum em Machine Learning, onde dados categóricos precisam ser convertidos para valores numéricos.
 A lista de imóveis (ex: "Casa", "Apartamento") foi transformada em uma representação numérica.
 
 Mapeamento realizado:
@@ -33,11 +31,9 @@ Mapeamento realizado:
 "Apartamento" → 1
 "Sítio" → 2
 Outros valores → -1 (outliers)
-
 Também foi realizada a contagem de ocorrências da categoria "Casa".
 
 Conceitos aplicados:
-
 Label Encoding
 Estruturas de decisão
 Uso de listas e loops
@@ -53,12 +49,10 @@ A cada época, o erro é reduzido com base em uma taxa de aprendizado
 O treinamento continua até que o erro seja menor ou igual a 10.0
 
 Durante o processo:
-
 É exibido um alerta quando o erro entra na faixa entre 20 e 30 (ajuste fino)
 Ao final, é exibido o número de épocas e o erro final
 
 Conceitos aplicados:
-
 Estrutura de repetição (while)
 Simulação de aprendizado iterativo
 Controle de fluxo
