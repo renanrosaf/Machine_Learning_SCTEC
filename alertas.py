@@ -16,6 +16,10 @@ class AlertaSMS(CanalAlerta):
     def enviar(self,mensagem):
         print("SMS enviado com sucesso")
 
+class AlertaWhattsApp(CanalAlerta):
+    def enviar(self,mensagem):
+        print("Mensagem enviada ao WhattsApp com sucesso")
+
 def disparar_alerta_geral(canal,mensagem):
     #A função  recebe o canal pronto como parâmetro, então é só chamar o método nele
     canal.enviar(mensagem)
