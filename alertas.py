@@ -1,4 +1,4 @@
-class CanalAlerta:
+class NotificadorBase:
     def __init__(self,nome_destinatario):
         self.nome_destinatario=nome_destinatario
       
